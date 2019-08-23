@@ -88,7 +88,7 @@ Outline is powered by [Shadowsocks](https://shadowsocks.org) and is still an ear
 
 ### Description
 
-The Outline Manager application creates and manages Outline servers, powered by [Shadowsocks](https://shadowsocks.org). It uses the [Electron](https://electronjs.org) framework to offer support for Windows, macOS and Linux. 
+The Outline Manager application creates and manages Outline servers, powered by [Shadowsocks](https://shadowsocks.org). It uses the [Electron](https://electronjs.org) framework to offer support for Windows, macOS and Linux.
 
 An Outline server runs instances of Shadowsocks proxies and provides an API used by the Outline Manager application.
 
@@ -132,7 +132,7 @@ The client's user interface is implemented in [Polymer](https://www.polymer-proj
 - **Security**: Lastest version or Older version, still supported
 - **User**: A non-root user
 
-According to partial [Table of Ubuntu versions](https://en.wikipedia.org/wiki/Ubuntu_version_history) from Wikipedia: 
+According to partial [Table of Ubuntu versions](https://en.wikipedia.org/wiki/Ubuntu_version_history) from Wikipedia:
 
 <img src="./statics/ubuntu-versions-supported.png" align="center">
 
@@ -295,10 +295,10 @@ Keep that information safe, as you'll need it in the other steps. For now, rejoi
 
 #### Step1 Download Linux AppImages and Icons
 
-First, download Linux AppImages for [Outline-Manager](https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/manager/stable/Outline-Manager.AppImage) Client and [Outline](https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/client/stable/Outline-Client.AppImage) Client by above steps **#2 Get Outline Manager Client** and **#3 Get Outline Client**. And then, download icons for the two clients: 
+First, download Linux AppImages for [Outline-Manager](https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/manager/stable/Outline-Manager.AppImage) Client and [Outline](https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/client/stable/Outline-Client.AppImage) Client by above steps **#2 Get Outline Manager Client** and **#3 Get Outline Client**. And then, download icons for the two clients:
 
 ```bash
-$ sudo wget https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/master/statics/outline-manager-client.png && sudo wget https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/master/statics/outline-client.png
+$ sudo wget https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/dev/statics/outline-manager-client.png && sudo wget https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/dev/statics/outline-client.png
 ```
 
 #### Step2 Create specified directories
@@ -317,13 +317,13 @@ Grant permissions that two client programs can execute:
 $ sudo chmod a+x *.AppImage
 ```
 
-Move the two programs to the two directories you just created: 
+Move the two programs to the two directories you just created:
 
 ```bash
 $ sudo mv Outline-Manager.AppImage outline/outline-manager-client && sudo mv Outline-Client.AppImage outline/outline-client
 ```
 
-Then, move the two icons to the same two directories you just created: 
+Then, move the two icons to the same two directories you just created:
 
 ```bash
 $ sudo mv outline-manager.png outline/outline-manager-client && sudo mv outline.png outline/outline-client
@@ -395,7 +395,7 @@ Last, run the command and pop-up the window about `Startup application preferenc
 $ gnome-session-properties
 ```
 
-Choose `Outline-Manager.AppImage`, click `Edit`, modify the `command` to `/opt/outline/outline-manager-client/Outline-Client.AppImage`, and finally save it. 
+Choose `Outline-Manager.AppImage`, click `Edit`, modify the `command` to `/opt/outline/outline-manager-client/Outline-Client.AppImage`, and finally save it.
 
 The same reason, you can choose `Outline-Client.AppImage`, click `Edit`, modify the `command` to `/opt/outline/outline-client/Outline-Client.AppImage`, and finally save it.
 
@@ -408,13 +408,13 @@ Usage:
 Directly, you can take the command into Terminal and enter to continue.
 
 ```bash
-$ sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/master/scripts/outline-vpn-ubuntu-one-click-script.sh)"
+$ sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/dev/scripts/outline-vpn-ubuntu-one-click-script.sh)"
 ```
-Or you can [🔰Download](https://codeload.github.com/seingshinlee/outline-vpn-mirrors/zip/master) this script to you computer.
+Or you can [🔰Download](https://codeload.github.com/seingshinlee/outline-vpn-mirrors/zip/dev) this script to you computer.
 
 ```bash
-$ sudo unzip outline-vpn-mirrors-master.zip
-$ cd outline-vpn-mirrors-master/scripts
+$ sudo unzip outline-vpn-mirrors-dev.zip
+$ cd outline-vpn-mirrors-dev/scripts
 $ bash outline-vpn-ubuntu-one-click-script.sh
 ```
 ## #6 Keywords
