@@ -6,8 +6,8 @@
   - [#1 Introduction](#1-introduction)
     - [1 - Why Outline](#1---why-outline)
       - [❤️Internet access you can trust](#%e2%9d%a4%ef%b8%8finternet-access-you-can-trust)
-      - [🔐Strong privacy and security](#%f0%9f%94%90strong-privacy-and-security)
-      - [🛠Built for news organizations](#%f0%9f%9b%a0built-for-news-organizations)
+      - [🏆Strong privacy and security](#%f0%9f%94%90strong-privacy-and-security)
+      - [🌟Built for news organizations](#%f0%9f%9b%a0built-for-news-organizations)
     - [2 - About us](#2---about-us)
     - [3 - Get involved](#3---get-involved)
     - [4 - Help](#4---help)
@@ -30,17 +30,17 @@
       - [Step5 Move the main directory `outline` to `/opt`](#step5-move-the-main-directory-outline-to-opt)
       - [Step6 Create soft links](#step6-create-soft-links)
       - [Step7 Set startup application preferences](#step7-set-startup-application-preferences)
-   - [#5 One-click Shell Script](#5-one-click-shell-script)
-   - [#6 Keywords](#6-keywords)
+  - [#5 One-click Shell Script](#5-one-click-shell-script)
+  - [#6 Keywords](#6-keywords)
 
 ## #1 Introduction
 
->  **Outline VPN - Making it safer to break the news.**
+> **Outline VPN - Making it safer to break the news.**
 
 Journalists need safe access to information to research issues, communicate with sources, and report the news. Outline lets news organizations easily provide their network safer access to the open internet.
 
-+ **Official Website**: [Download from https://getoutline.org](https://getoutline.org) (**Need** proxies in mainland China🇨🇳)
-+ **Official Object-Based Storage Website**: [Download from Amazon S3](https://s3.amazonaws.com/outline-vpn/index.html) (**No need** proxies in mainland China🇨🇳)
+- **Official Website**: [Download from https://getoutline.org](https://getoutline.org) (**Need** proxies in mainland China🇨🇳)
+- **Official Object-Based Storage Website**: [Download from Amazon S3](https://s3.amazonaws.com/outline-vpn/index.html) (**No need** proxies in mainland China🇨🇳)
 
 ### 1 - Why Outline
 
@@ -94,11 +94,12 @@ An Outline server runs instances of Shadowsocks proxies and provides an API used
 
 ### Download
 
-|**OS**|**Download**|
-|:---:|:---:|
-|**Windows 7.0+**|[<img src="./statics/pngs/windows.png" width="200" height="50">](https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/manager/stable/Outline-Manager.exe)|
-|**Most of Linux Releases**|[<img src="./statics/pngs/linux.png" width="200" height="50">](https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/manager/stable/Outline-Manager.AppImage)|
-|**macOS 10.9+**|[<img src="./statics/pngs/macos.png" width="200" height="50">](https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/manager/stable/Outline-Manager.dmg)|
+|           **OS**           |                         **Download**                         |
+| :------------------------: | :----------------------------------------------------------: |
+|      **Windows 7.0+**      | [<img src="./statics/pngs/windows.png" width="200" height="50">](https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/manager/stable/Outline-Manager.exe) |
+| **Most of Linux Releases** | [<img src="./statics/pngs/linux.png" width="200" height="50">](https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/manager/stable/Outline-Manager.AppImage) |
+|      **macOS 10.9+**       | [<img src="./statics/pngs/macos.png" width="200" height="50">](https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/manager/stable/Outline-Manager.dmg) |
+
 ## #3 Get Outline Client
 
 <img src="./statics/outline-client.png" height="80">
@@ -110,25 +111,26 @@ The Outline Client is a cross-platform VPN or proxy client for Windows, macOS, i
 The client's user interface is implemented in [Polymer](https://www.polymer-project.org/) 2.0. Platform support is provided by [Cordova](https://cordova.apache.org/) and [Electron](https://electronjs.org), with additional native components in this repository.
 
 ### Download
-|**OS**|**Download**|
-|:---:|:---:|
-|**Windows 7.0+**|[<img src="./statics/pngs/windows.png" width="200" height="50">](https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/client/stable/Outline-Client.exe)|
-|**Most of Linux Releases**|[​<img src="./statics/pngs/linux.png" width="200" height="50">](https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/client/stable/Outline-Client.AppImage)|
-|**macOS 10.11+**|[<img src="./statics/pngs/appstore.png" width="200" height="50">](https://apps.apple.com/cn/app/outline-app/id1356178125)|
-|**iOS 9.0+**|[<img src="./statics/pngs/appstore.png" width="200" height="50">](https://apps.apple.com/us/app/outline-app/id1356177741)|
-|**Android 5.0+**|[​<img src="./statics/pngs/android.png" width="200" height="50">](https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/client/Outline.apk)**or**[<img src="./statics/pngs/googleplay.png" width="200" height="50">](https://play.google.com/store/apps/details?id=org.outline.android.client)|
-|**Chrome OS 64.0+**|[<img src="./statics/pngs/chromeos.png" width="200" height="50">](https://play.google.com/store/apps/details?id=org.outline.android.client)|
+
+|           **OS**           |                         **Download**                         |
+| :------------------------: | :----------------------------------------------------------: |
+|      **Windows 7.0+**      | [<img src="./statics/pngs/windows.png" width="200" height="50">](https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/client/stable/Outline-Client.exe) |
+| **Most of Linux Releases** | [​<img src="./statics/pngs/linux.png" width="200" height="50">](https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/client/stable/Outline-Client.AppImage) |
+|      **macOS 10.11+**      | [<img src="./statics/pngs/appstore.png" width="200" height="50">](https://apps.apple.com/cn/app/outline-app/id1356178125) |
+|        **iOS 9.0+**        | [<img src="./statics/pngs/appstore.png" width="200" height="50">](https://apps.apple.com/us/app/outline-app/id1356177741) |
+|      **Android 5.0+**      | [​<img src="./statics/pngs/android.png" width="200" height="50">](https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/client/Outline.apk)**or**[<img src="./statics/pngs/googleplay.png" width="200" height="50">](https://play.google.com/store/apps/details?id=org.outline.android.client) |
+|    **Chrome OS 64.0+**     | [<img src="./statics/pngs/chromeos.png" width="200" height="50">](https://play.google.com/store/apps/details?id=org.outline.android.client) |
 
 ## #4 How to install Outline VPN On Ubuntu Server 19.04 and Ubuntu Desktop 19.04?
 
 ### Prerequisites
 
-+ **Version**: Ubuntu Server 16.04 LTS, Ubuntu Desktop 16.04 LTS, Ubuntu Server 18.04 LTS, Ubuntu Desktop 18.04 LTS, Ubuntu Server 18.10, Ubuntu Desktop 18.10, Ubuntu Server 19.04 or Ubuntu Desktop 19.04
-+ **Linux Kernel Version**: >= v3.10
-+ **Architecture**: x86_64 or ARM
-+ **Number of Bit**: 64-Bit
-+ **Security**: Lastest version or Older version, still supported
-+ **User**: A non-root user
+- **Version**: Ubuntu Server 16.04 LTS, Ubuntu Desktop 16.04 LTS, Ubuntu Server 18.04 LTS, Ubuntu Desktop 18.04 LTS, Ubuntu Server 18.10, Ubuntu Desktop 18.10, Ubuntu Server 19.04 or Ubuntu Desktop 19.04
+- **Linux Kernel Version**: >= v3.10
+- **Architecture**: x86_64 or ARM
+- **Number of Bit**: 64-Bit
+- **Security**: Lastest version or Older version, still supported
+- **User**: A non-root user
 
 According to partial [Table of Ubuntu versions](https://en.wikipedia.org/wiki/Ubuntu_version_history) from Wikipedia: 
 
@@ -145,6 +147,7 @@ By default, the above versions of the 64-Bit Ubuntu operating system meets these
 For a detailed introduction to Docker, check out [Docker Official Documentation](https://docs.docker.com).
 
 First, update your existing list of packages:
+
 ```bash
 $ sudo apt update
 ```
@@ -163,13 +166,14 @@ $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
 Add the Docker repository to APT sources and assume x86_64 architecture:
 
-+ If Ubuntu Server 19.04, Ubuntu Desktop 19.04 or higher.
+- If Ubuntu Server 19.04, Ubuntu Desktop 19.04 or higher.
 
 ```bash
 $ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable edge test"
 ```
 
-+ If Ubuntu Server 16.04 LTS, Ubuntu Desktop 16.04 LTS, Ubuntu Server 18.04 LTS, Ubuntu Desktop 18.04 LTS, Ubuntu Server 18.10 or Ubuntu Desktop 18.10.
+- If Ubuntu Server 16.04 LTS, Ubuntu Desktop 16.04 LTS, Ubuntu Server 18.04 LTS, Ubuntu Desktop 18.04 LTS, Ubuntu Server 18.10 or Ubuntu Desktop 18.10.
+
 ```bash
 $ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 ```
@@ -250,6 +254,7 @@ First, get an Outline official server one-click installation bash script `instal
 ```bash
 $ sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh)"
 ```
+
 You will see lots of output from the script: first, it checks for the necessary programs (Docker), creates secret keys, and then downloads and starts two Docker containers: a shadowbox server and a watchtower server to update shadowbox as needed.
 
 When the Outline VPN server installation script finishes, you'll see some output similar to the following:
@@ -299,23 +304,31 @@ $ sudo wget https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/m
 #### Step2 Create specified directories
 
 Recursively, create the specified directories:
+
 ```bash
 $ sudo mkdir -p outline/{outline-manager-client,outline-client}
 ```
+
 #### Step3 Grant permissions and move locations
 
 Grant permissions that two client programs can execute:
+
 ```bash
 $ sudo chmod a+x *.AppImage
 ```
+
 Move the two programs to the two directories you just created: 
+
 ```bash
 $ sudo mv Outline-Manager.AppImage outline/outline-manager-client && sudo mv Outline-Client.AppImage outline/outline-client
 ```
+
 Then, move the two icons to the same two directories you just created: 
+
 ```bash
 $ sudo mv outline-manager.png outline/outline-manager-client && sudo mv outline.png outline/outline-client
 ```
+
 #### Step4 Touch and edit files for desktop launchers
 
 For Outline Manager:
@@ -337,6 +350,7 @@ EOF
 ```
 
 For Outline:
+
 ```bash
 $ sudo cat >$(pwd)/outline/outline.desktop <<-EOF
 [Desktop Entry]
@@ -389,7 +403,22 @@ At this point, you completely installed and configured all. Now, Let us reboot c
 
 ## #5 One-click Shell Script
 
-TODO
+Usage:
+
+Directly, you can take the command into Terminal and enter to continue.
+
+```bash
+$ sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/master/scripts/outline-vpn-ubuntu-one-click-script.sh)"
+
+```
+
+Or you can [🔰Download](https://codeload.github.com/seingshinlee/outline-vpn-mirrors/zip/master) this script to you computer.
+
+```bash
+$ sudo unzip outline-vpn-mirrors-master.zip
+$ cd outline-vpn-mirrors-master/scripts
+$ bash outline-vpn-ubuntu-one-click-script.sh
+```
 
 ## #6 Keywords
 
