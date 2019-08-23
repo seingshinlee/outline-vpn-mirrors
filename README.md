@@ -397,6 +397,7 @@ Directly, you can take the command into Terminal and enter to continue.
 $ sudo bash -c "$(wget -qO- https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/master/scripts/outline-vpn-ubuntu-one-click-script.sh)"
 ```
 
+<<<<<<< HEAD
 Or you can [🔰Download](https://codeload.github.com/seingshinlee/outline-vpn-mirrors/zip/master) this script to you computer.
 
 ```bash
@@ -404,6 +405,9 @@ $ sudo unzip outline-vpn-mirrors-master.zip
 $ cd outline-vpn-mirrors-master/scripts
 $ bash outline-vpn-ubuntu-one-click-script.sh
 ```
+=======
+Or you can  [🔰Download](https://raw.githubusercontent.com/seingshinlee/outline-vpn-mirrors/master/scripts/outline-vpn-ubuntu-one-click-script.sh) this script to you computer.
+>>>>>>> 74f2ccad86671c966a93d374c08c44476ecef549
 
 ## #6 Keywords
 
